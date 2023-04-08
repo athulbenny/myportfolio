@@ -155,7 +155,7 @@ class _ProfilePageState extends State<ProfilePage>{
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(20, 20.0, 20.0, 20.0),
-                    child: Center(child: Text('9400119329',
+                    child: Center(child: Text('xxxxxxxxxx',
                       style:TextStyle(
                       color: Colors.orange,
                       fontSize: 15.0,
@@ -163,6 +163,41 @@ class _ProfilePageState extends State<ProfilePage>{
                   ),
                 ],
               ),
+
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(100, 20, 0.0, 0.0),
+                          child: Icon(Icons.add_call,),
+                        ),
+                      ),
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(0.0, 20, 0.0, 0.0),
+                          child: Text('WHATSAPP',
+                            style:TextStyle(
+                            color: Colors.pink,
+                            fontSize: 15.0,
+                          ),),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(20, 20.0, 20.0, 20.0),
+                    child: Center(child: Text('xxxxxxxxxx',
+                      style:TextStyle(
+                      color: Colors.orange,
+                      fontSize: 15.0,
+                    ),)),
+                  ),
+                ],
+              ),
+
               
               Divider(color: Colors.red,),
 
